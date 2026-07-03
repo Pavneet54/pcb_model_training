@@ -14,5 +14,10 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Ignore dataset (recommended if it's large)
-PCBSegClassNet/data/
+# Ignore everything in data
+PCBSegClassNet/data/*
+
+# But keep the yolo folder
+!PCBSegClassNet/data/yolo/
+!PCBSegClassNet/data/yolo/**
+
