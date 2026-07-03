@@ -21,3 +21,5 @@ PCBSegClassNet/data/*
 !PCBSegClassNet/data/yolo/
 !PCBSegClassNet/data/yolo/**
 
+PCBSegClassNet/data/yolo/
+*.zip
