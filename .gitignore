@@ -1,0 +1,18 @@
+# Virtual environment
+enviornment_venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ZIP files
+*.zip
+
+# macOS
+.DS_Store
+
+# Ignore dataset (recommended if it's large)
+PCBSegClassNet/data/
